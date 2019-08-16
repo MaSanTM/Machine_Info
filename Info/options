@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo "[1] saber quem está logado nesta máquina"
 echo "[2] tempo ligado da máquina"
 echo "[3] mostrar informações do processador"
