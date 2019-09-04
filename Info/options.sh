@@ -1,16 +1,16 @@
 #!/bin/bash
-echo "[1] saber quem está logado nesta máquina"
-echo "[2] tempo ligado da máquina"
-echo "[3] mostrar informações do processador"
-echo "[4] mostrar informações da RAM"
-echo "[5] mostrar a data atual"
-echo "[6] mostrar utilização do disco rígido"
-echo "[7] sair do script"
+echo "[1] who is logged in machine"
+echo "[2] machine on time"
+echo "[3] processor info"
+echo "[4] RAM info"
+echo "[5] current date"
+echo "[6] hard disk usage"
+echo "[7] exit script"
 
-echo Digite a opção desejada
-read opcao
+echo Enter a option: 
+read option
 
-case $opcao in
+case $option in
 
 1) w;;
 2) uptime;;
