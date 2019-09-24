@@ -1,23 +1,23 @@
 A program that list the informations about the machine and give some options for test or verifications.
 ````sh
-1 = Who's logged in machine
+1 = w;;
 ````
 ````sh
-2 = Machine on time
+2 = uptime;;
 ````
 ````sh
-3 = Processor info
+3 = cat /proc/cpuinfo;;
 ````
 ````sh
-4 = RAM info
+4 = cat /proc/meminfo;;
 ````
 ````sh
-5 = Current date
+5 = date;;
 ````
 ````sh
-6 = Storage usage
+6 = df;;
 ````
 ````sh
-7 = Exit
+7 = exit;;
 ````
 
