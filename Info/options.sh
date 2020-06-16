@@ -1,11 +1,13 @@
 #!/bin/bash
-echo "[1] who is logged in machine"
-echo "[2] machine on time"
-echo "[3] processor info"
-echo "[4] RAM info"
-echo "[5] current date"
-echo "[6] hard disk usage"
-echo "[7] exit script"
+echo "[1] WHO IS LOGGED ON MACHINE"
+echo "[2] MACHINE TIME"
+echo "[3] PROCESSOR INFO"
+echo "[4] RAM INFO"
+echo "[5] CURRENT TIME OF MACHINE"
+echo "[6] HDD USAGE"
+echo "[7] CHECK PARTITIONS"
+echo "[8] KERNEL VERSION"
+echo "[9] EXIT SCRIPT"
 
 echo Enter a option: 
 read option
@@ -18,7 +20,9 @@ case $option in
 4) cat /proc/meminfo;;
 5) date;;
 6) df;;
-7) exit;;
+7) cat /proc/partitions;;
+8) cat /proc/version;;
+9) exit;;
 
 esac
 (END)
