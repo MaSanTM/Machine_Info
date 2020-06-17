@@ -2,4 +2,3 @@ A program that list the informations about the machine and give some options for
 
 ```shell
 echo "Hello World!"
-```shell
