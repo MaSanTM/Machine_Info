@@ -15,6 +15,6 @@ $ sudo chmod +x options.sh
 ```
 and run the script:
 
-```shell
+```bash
 $ sudo ./options.sh
 ```
