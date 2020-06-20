@@ -11,7 +11,7 @@ After downloaded, open the folder that you selected and extract the file. Then, 
 
 ```bash
 $ cd Machine_info-master
-$ sudo chmod +x options.sh \\to turn in a executable script
+$ sudo chmod +x options.sh #to turn in a executable script
 ```
 and run the script:
 
